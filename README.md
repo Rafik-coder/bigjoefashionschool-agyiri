@@ -1,2 +1,0 @@
-# bigjoefashionschool-agyiri
-bigjoefashionschool-agyiri
