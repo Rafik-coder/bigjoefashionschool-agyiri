@@ -123,9 +123,9 @@ const page = () => {
               </div>
             </div>
 
-            <div>
-              <ContactForm />
-            </div>
+            // <div>
+            //   <ContactForm />
+            // </div>
           </div>
         </div>
       </section>
