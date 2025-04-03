@@ -122,10 +122,11 @@ const page = () => {
                 </a>
               </div>
             </div>
-
-            // <div>
-            //   <ContactForm />
-            // </div>
+            //{" "}
+            <div>
+              // <ContactForm />
+              //{" "}
+            </div>
           </div>
         </div>
       </section>
