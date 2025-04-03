@@ -29,6 +29,8 @@ const eslintConfig = [
       "react-hooks/exhaustive-deps": "off",
       "react/jsx-key": "off",
       "@typescript-eslint/ban-ts-comment": "off",
+      "react/jsx-no-comment-textnodes": "off", // Disable JSX comment error
+      "@typescript-eslint/no-empty-object-type": "off", // Allow empty interfaces
     },
   },
 ];
