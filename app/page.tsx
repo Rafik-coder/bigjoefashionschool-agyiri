@@ -12,6 +12,7 @@ import { news } from "@/data/news";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { object } from "zod";
 
 export default function Home() {
   const featuredCourses = courses.slice(0, 3);
@@ -119,6 +120,34 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {
+        // Images Galary
+      }
+      <section  className="py-16 bg-white">
+        <div>
+          <SectionHeading
+            title="Programs Galary"
+            subtitle="Explore our gallery showcasing the journey from aspiring novices to accomplished fashion designers."
+          />
+          <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {Array.from({ length: 8 }, (_, index) => (
+              <div
+                key={index}
+                className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md"
+              >
+                <Image
+                  src={`/images/Cosmetology/IMG-20250404-WA000${index+2}.jpg`}
+                  alt={`about-img-${index}`}
+                  fill
+                  style={{objectFit: "cover"}}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>            
         </div>
       </section>
 
