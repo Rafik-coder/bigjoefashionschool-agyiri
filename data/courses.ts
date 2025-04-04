@@ -61,4 +61,14 @@ export const courses: CourseType[] = [
     price: 900,
     imageUrl: "/images/IMG-20250330-WA0042.jpg",
   },
+  {
+    id: 7,
+    title: "Cosmetology and Hair Technology",
+    description:
+      "Gain expertise in hair styling, skin care, and makeup application techniques.",
+    duration: "3 Months",
+    level: "Intermediate",
+    price: 1000,
+    imageUrl: "/images/Cosmetology/IMG-20250404-WA0003.jpg",
+  },
 ];
