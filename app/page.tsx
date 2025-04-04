@@ -126,7 +126,7 @@ export default function Home() {
       {
         // Images Galary
       }
-      <section  className="py-16 bg-white">
+      <section className="py-16 bg-white">
         <div>
           <SectionHeading
             title="Programs Galary"
@@ -139,15 +139,15 @@ export default function Home() {
                 className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md"
               >
                 <Image
-                  src={`/images/Cosmetology/IMG-20250404-WA000${index+2}.jpg`}
+                  src={`/images/Cosmetology/IMG-20250404-WA000${index + 2}.jpg`}
                   alt={`about-img-${index}`}
                   fill
-                  style={{objectFit: "cover"}}
+                  style={{ objectFit: "cover" }}
                   className="w-full h-full object-cover"
                 />
               </div>
             ))}
-          </div>            
+          </div>
         </div>
       </section>
 
