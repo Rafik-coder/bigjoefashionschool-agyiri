@@ -13,12 +13,12 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-black">
+    <footer className="bg-white text-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-black font-bold">
+              <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center text-black font-bold">
                 <Image alt="logo" src={"/logo.png"} width={100} height={100} />
               </div>
               <span className="font-heading font-bold text-xl text-black">
