@@ -32,8 +32,8 @@ export default function Home() {
                 About Our Centre
               </h2>
               <p className="mt-4 text-gray-600">
-                Big Joe Fashion School is a vocational training institute for
-                fashion designers and fashion training services, located in
+                Big Joe Fashion and Cosmetology School is a vocational training institute for
+                fashion designers, fashion training services and Cosmetology training services, located in
                 Techiman, Bono East Regional capital.
               </p>
 
@@ -43,7 +43,7 @@ export default function Home() {
                     Mission
                   </h3>
                   <p className="mt-1 text-gray-600">
-                    Big Joe Fashion School exists to provide top-notch training
+                    Big Joe Fashion and Cosmetology School exists to provide top-notch training
                     in fashion designing, entrepreneurship, customer
                     orientation, and quality service delivery for unemployed
                     youth at an affordable cost.
@@ -55,7 +55,7 @@ export default function Home() {
                     Vision
                   </h3>
                   <p className="mt-1 text-gray-600">
-                    To become the most desirable fashion and training hub in the
+                    To become the most desirable fashion and Cosmetology training hub in the
                     Northern sector that provides exceptional and unique fashion
                     training at an affordable cost.
                   </p>
@@ -81,9 +81,6 @@ export default function Home() {
                   fill
                   className="w-16 h-16 object-fit-cover text-gray-400"
                 />
-                {/* <svg className="h-16 w-16 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg> */}
               </div>
               <div className="h-64 bg-gray-300 relative overflow-hidden rounded-lg shadow-md mt-8 flex items-center justify-center">
                 <Image
@@ -92,9 +89,6 @@ export default function Home() {
                   fill
                   className="w-16 h-16 object-fit-cover text-gray-400"
                 />
-                {/* <svg className="h-16 w-16 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg> */}
               </div>
               <div className="h-64 bg-gray-300 relative overflow-hidden rounded-lg shadow-md flex items-center justify-center">
                 <Image
@@ -103,9 +97,6 @@ export default function Home() {
                   fill
                   className="w-16 h-16 object-fit-cover text-gray-400"
                 />
-                {/* <svg className="h-16 w-16 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg> */}
               </div>
               <div className="h-64 bg-gray-300 relative overflow-hidden rounded-lg shadow-md mt-8 flex items-center justify-center">
                 <Image
@@ -114,9 +105,6 @@ export default function Home() {
                   fill
                   className="w-16 h-16 object-fit-cover text-gray-400"
                 />
-                {/* <svg className="h-16 w-16 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                </svg> */}
               </div>
             </div>
           </div>
@@ -130,23 +118,44 @@ export default function Home() {
         <div>
           <SectionHeading
             title="Programs Galary"
-            subtitle="Explore our gallery showcasing the journey from aspiring novices to accomplished fashion designers."
+            subtitle="Explore our gallery showcasing the journey from aspiring novices to accomplished fashion designers and Cosmetologists."
           />
-          <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
-            {Array.from({ length: 8 }, (_, index) => (
-              <div
-                key={index}
-                className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md"
-              >
-                <Image
-                  src={`/images/Cosmetology/IMG-20250404-WA000${index + 2}.jpg`}
-                  alt={`about-img-${index}`}
-                  fill
-                  style={{ objectFit: "cover" }}
-                  className="w-full h-full object-cover"
-                />
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {Array.from({ length: 8 }, (_, index) => (
+                <div
+                  key={index}
+                  className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md"
+                >
+                  <Image
+                    src={`/images/Cosmetology/IMG-20250404-WA000${index + 2}.jpg`}
+                    alt={`about-img-${index}`}
+                    fill
+                    style={{ objectFit: "cover" }}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Video Section */}
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="mt-12">
+              <SectionHeading
+                title="Video Gallery"
+                subtitle="Watch our videos to get a glimpse of our training programs and facilities."
+              />
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {
+                  Array.from({ length: 10 }, (_, index) => (
+                    <div className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md">
+                      <video src={`/videos/VID-20250330-WA000${index + 1}.mp4`} controls className="w-full h-full object-cover" />
+                    </div>
+                  ))
+                }
               </div>
-            ))}
+            </div>
           </div>
         </div>
       </section>
@@ -156,7 +165,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Our Training Programs"
-            subtitle="Comprehensive training programs designed to transform novices into professional fashion designers."
+            subtitle="Comprehensive training programs designed to transform novices into professional fashion designers and Cosmetologists."
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -197,7 +206,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Latest News & Events"
-            subtitle="Stay updated with the latest happenings at Big Agyiri Fashion Centre."
+            subtitle="Stay updated with the latest happenings at Big Agyiri Fashion and Cosmetology Centre."
           />
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

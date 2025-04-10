@@ -26,7 +26,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-black/70">
-              Providing top-notch fashion education and training for the youth
+              Providing top-notch fashion and Cosmetology education and training for the youth
               in Ghana since 1998.
             </p>
             <div className="mt-4 flex gap-4">

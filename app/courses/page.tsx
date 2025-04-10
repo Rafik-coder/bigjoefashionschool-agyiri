@@ -20,9 +20,9 @@ const page = () => {
               Training Focus
             </h2>
             <p className="text-gray-600 max-w-3xl">
-              At Big Agyiri Fashion Centre, we offer comprehensive training
+              At Big Agyiri Fashion and Cosmetology Centre, we offer comprehensive training
               programs designed to equip students with both technical skills and
-              business knowledge needed to succeed in the fashion industry. Our
+              business knowledge needed to succeed in the fashion and Cosmetology industry. Our
               courses are crafted with a focus on practical, hands-on learning
               and industry relevance.
             </p>
