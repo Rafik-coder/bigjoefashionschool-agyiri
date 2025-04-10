@@ -36,11 +36,11 @@ const page = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Big Agyiri Fashion and Cosmetology Centre is a vocational training institute for
-                fashion designers and fashion training services, located in
-                Techiman, Bono East Regional capital. The center is duly
-                registered under the Ghana Company's Code Act 2019 (Act 992)
-                dated 29th December 2020.
+                Big Agyiri Fashion and Cosmetology Centre is a vocational
+                training institute for fashion designers and fashion training
+                services, located in Techiman, Bono East Regional capital. The
+                center is duly registered under the Ghana Company's Code Act
+                2019 (Act 992) dated 29th December 2020.
               </p>
               <p className="text-gray-600 mb-4">
                 The centre trains young people between the ages of 16 to 25
@@ -56,8 +56,8 @@ const page = () => {
                 conducive learning environment.
               </p>
               <p className="text-gray-600">
-                We also offer Cosmetology training services to the teeming unemployed youth with
-                practical, hands-on methods.
+                We also offer Cosmetology training services to the teeming
+                unemployed youth with practical, hands-on methods.
               </p>
             </div>
 
@@ -81,10 +81,10 @@ const page = () => {
                 Mission Statement
               </h3>
               <p className="text-gray-600">
-                Big Asyiri Fashion and Cosmetology Centre exists to provide top-notch training
-                in fashion designing, entrepreneurship, customer orientation,
-                and quality service delivery for unemployed youth at an
-                affordable cost.
+                Big Asyiri Fashion and Cosmetology Centre exists to provide
+                top-notch training in fashion designing, entrepreneurship,
+                customer orientation, and quality service delivery for
+                unemployed youth at an affordable cost.
               </p>
             </div>
 
@@ -93,9 +93,9 @@ const page = () => {
                 Vision Statement
               </h3>
               <p className="text-gray-600">
-                To become the most desirable fashion and Cosmetology training hub in the
-                Northern sector that provides exceptional and unique fashion
-                training at an affordable cost.
+                To become the most desirable fashion and Cosmetology training
+                hub in the Northern sector that provides exceptional and unique
+                fashion training at an affordable cost.
               </p>
             </div>
           </div>

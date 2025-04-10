@@ -32,9 +32,10 @@ export default function Home() {
                 About Our Centre
               </h2>
               <p className="mt-4 text-gray-600">
-                Big Joe Fashion and Cosmetology School is a vocational training institute for
-                fashion designers, fashion training services and Cosmetology training services, located in
-                Techiman, Bono East Regional capital.
+                Big Joe Fashion and Cosmetology School is a vocational training
+                institute for fashion designers, fashion training services and
+                Cosmetology training services, located in Techiman, Bono East
+                Regional capital.
               </p>
 
               <div className="mt-6 space-y-4">
@@ -43,10 +44,10 @@ export default function Home() {
                     Mission
                   </h3>
                   <p className="mt-1 text-gray-600">
-                    Big Joe Fashion and Cosmetology School exists to provide top-notch training
-                    in fashion designing, entrepreneurship, customer
-                    orientation, and quality service delivery for unemployed
-                    youth at an affordable cost.
+                    Big Joe Fashion and Cosmetology School exists to provide
+                    top-notch training in fashion designing, entrepreneurship,
+                    customer orientation, and quality service delivery for
+                    unemployed youth at an affordable cost.
                   </p>
                 </div>
 
@@ -55,9 +56,10 @@ export default function Home() {
                     Vision
                   </h3>
                   <p className="mt-1 text-gray-600">
-                    To become the most desirable fashion and Cosmetology training hub in the
-                    Northern sector that provides exceptional and unique fashion
-                    training at an affordable cost.
+                    To become the most desirable fashion and Cosmetology
+                    training hub in the Northern sector that provides
+                    exceptional and unique fashion training at an affordable
+                    cost.
                   </p>
                 </div>
               </div>
@@ -147,13 +149,15 @@ export default function Home() {
                 subtitle="Watch our videos to get a glimpse of our training programs and facilities."
               />
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                {
-                  Array.from({ length: 10 }, (_, index) => (
-                    <div className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md">
-                      <video src={`/videos/VID-20250330-WA000${index + 1}.mp4`} controls className="w-full h-full object-cover" />
-                    </div>
-                  ))
-                }
+                {Array.from({ length: 10 }, (_, index) => (
+                  <div className="relative w-full h-[200px] bg-red-300 overflow-hidden rounded-lg shadow-md">
+                    <video
+                      src={`/videos/VID-20250330-WA000${index + 1}.mp4`}
+                      controls
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </div>

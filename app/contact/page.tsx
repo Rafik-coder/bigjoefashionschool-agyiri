@@ -165,9 +165,9 @@ const page = () => {
             Call us now:{" "}
             <Link href="tel:233555647831" className="ml-2 text-blue-500">
               {" "}
-              +233 55 564 7831 {" "}
+              +233 55 564 7831{" "}
             </Link>
-            <span> {" "} OR </span>
+            <span> OR </span>
             <Link href="tel:233246752277" className="ml-2 text-blue-500">
               {" "}
               +233 24 675 2277{" "}
