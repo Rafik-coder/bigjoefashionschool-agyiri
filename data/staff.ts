@@ -4,7 +4,7 @@ export const staff: StaffType[] = [
   // Leadership
   {
     id: 1,
-    name: "Mr Agyiri Mohammed Junior",
+    name: "AGYIRI MOHAMMED JUNIOR",
     phone: "055 564 7831",
     title: "Founder & Director",
     department: "Administration",

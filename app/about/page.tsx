@@ -36,11 +36,11 @@ const page = () => {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-4">
-                Big Agyiri Fashion Centre is a vocational training institute for
-                fashion designers and fashion training services, located in
-                Techiman, Bono East Regional capital. The center is duly
-                registered under the Ghana Company's Code Act 2019 (Act 992)
-                dated 29th December 2020.
+                Big Agyiri Fashion and Cosmetology Centre is a vocational
+                training institute for fashion designers and fashion training
+                services, located in Techiman, Bono East Regional capital. The
+                center is duly registered under the Ghana Company's Code Act
+                2019 (Act 992) dated 29th December 2020.
               </p>
               <p className="text-gray-600 mb-4">
                 The centre trains young people between the ages of 16 to 25
@@ -55,34 +55,19 @@ const page = () => {
                 entrepreneurial development for aspiring fashion designers in a
                 conducive learning environment.
               </p>
+              <p className="text-gray-600">
+                We also offer Cosmetology training services to the teeming
+                unemployed youth with practical, hands-on methods.
+              </p>
             </div>
 
             <div className="h-[400px] relative bg-gray-300 rounded-lg shadow-xl flex items-center justify-center">
               <Image
                 src="/images/IMG-20250330-WA0079.jpg"
                 alt="about-img"
-                // width={100}
-                // height={100}
                 fill
-                // objectFit="cover"
                 className="w-24 h-24 object-fit-cover text-gray-400"
               />
-              {
-                // <svg
-                //   className="h-24 w-24 text-gray-400"
-                //   xmlns="http://www.w3.org/2000/svg"
-                //   fill="none"
-                //   viewBox="0 0 24 24"
-                //   stroke="currentColor"
-                // >
-                //   <path
-                //     strokeLinecap="round"
-                //     strokeLinejoin="round"
-                //     strokeWidth={1}
-                //     d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                //   />
-                // </svg>
-              }
             </div>
           </div>
         </div>
@@ -96,10 +81,10 @@ const page = () => {
                 Mission Statement
               </h3>
               <p className="text-gray-600">
-                Big Asyiri Fashion Centre exists to provide top-notch training
-                in fashion designing, entrepreneurship, customer orientation,
-                and quality service delivery for unemployed youth at an
-                affordable cost.
+                Big Asyiri Fashion and Cosmetology Centre exists to provide
+                top-notch training in fashion designing, entrepreneurship,
+                customer orientation, and quality service delivery for
+                unemployed youth at an affordable cost.
               </p>
             </div>
 
@@ -108,9 +93,9 @@ const page = () => {
                 Vision Statement
               </h3>
               <p className="text-gray-600">
-                To become the most desirable fashion and training hub in the
-                Northern sector that provides exceptional and unique fashion
-                training at an affordable cost.
+                To become the most desirable fashion and Cosmetology training
+                hub in the Northern sector that provides exceptional and unique
+                fashion training at an affordable cost.
               </p>
             </div>
           </div>

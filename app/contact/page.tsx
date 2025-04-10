@@ -57,8 +57,8 @@ const page = () => {
                     <h3 className="font-heading text-lg font-semibold text-secondary">
                       Phone
                     </h3>
-                    <p className="text-gray-600">+233 50 123 4567</p>
-                    <p className="text-gray-600">+233 24 987 6543</p>
+                    <p className="text-gray-600">+233 55 564 7831</p>
+                    <p className="text-gray-600">+233 24 675 2277</p>
                   </div>
                 </div>
 
@@ -163,9 +163,14 @@ const page = () => {
           </p>
           <div className="inline-flex bg-white text-secondary font-bold py-3 px-6 rounded-full">
             Call us now:{" "}
-            <Link href="tel:233501234567" className="ml-2 text-blue-500">
+            <Link href="tel:233555647831" className="ml-2 text-blue-500">
               {" "}
-              +233 50 123 4567{" "}
+              +233 55 564 7831{" "}
+            </Link>
+            <span> OR </span>
+            <Link href="tel:233246752277" className="ml-2 text-blue-500">
+              {" "}
+              +233 24 675 2277{" "}
             </Link>
           </div>
         </div>
