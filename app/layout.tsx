@@ -24,23 +24,29 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const unpaid = true
+  const unpaid = true;
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {
-          unpaid ? <>
+        {unpaid ? (
+          <>
             <Navbar />
             {children}
             <Footer />
-          </> : <>
+          </>
+        ) : (
+          <>
             <div className="min-h-screen flex items-center justify-center bg-gray-50">
               <div className="max-w-2xl mx-auto text-center p-8">
-                <h1 className="text-4xl font-bold text-gray-900 mb-4">Access Restricted</h1>
+                <h1 className="text-4xl font-bold text-gray-900 mb-4">
+                  Access Restricted
+                </h1>
                 <p className="text-lg text-gray-600 mb-6">
-                  This content is currently unavailable. Please contact our support team.
+                  This content is currently unavailable. Please contact our
+                  support team.
                 </p>
                 {/* <Button
                   asChild
@@ -51,7 +57,7 @@ export default function RootLayout({
               </div>
             </div>
           </>
-        }
+        )}
       </body>
     </html>
   );
