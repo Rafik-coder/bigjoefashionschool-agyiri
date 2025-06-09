@@ -39,8 +39,8 @@ export default function RootLayout({
               Access Restricted
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              This content is currently unavailable. Please contact our
-              support team.
+              This content is currently unavailable. Please contact our support
+              team.
             </p>
             {/* <Button
               asChild
